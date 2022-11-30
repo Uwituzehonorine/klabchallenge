@@ -64,6 +64,9 @@ margin-top: 40px;
     border-radius: 15px;
     position: relative;
 }
+.content1 p{
+    padding-left: 150px;
+}
 .part3{
     background-color: rgb(241 245 249);
     height: 100vh;
