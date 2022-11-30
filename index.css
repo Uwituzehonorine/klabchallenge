@@ -46,7 +46,7 @@ padding: 0px;
 
 }
 .contentC{
-    background-color: rgb(255 247 237);
+    background-color: rgba(255, 255, 255, 0.948);
     margin-top: 10px;
     /* margin:auto; */
     height: 40vh;
@@ -103,3 +103,28 @@ h6{
     height: 25px;
    
 }
+
+
+/* circle */
+.theprogress{
+    width: 1600px;
+    height: 160px;
+    padding: 20px;
+    padding-left: 30px;
+    position: relative;
+    margin-left: 120px;
+
+  }
+  .outer{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 6px 6px 10px -1px rgba(247, 22, 22, 0.603),
+                -6px -6px 10px -1px rgba(193, 32, 32, 0.7);
+  }
+  /*  */
+  #percentage{
+    font-weight: 600px;
+    color: rgb(7, 56, 80);
+  }
