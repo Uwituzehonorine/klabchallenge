@@ -110,21 +110,26 @@ h6{
 
 /* circle */
 .theprogress{
-    width: 1600px;
-    height: 160px;
+    width: 1200px;
+    height: 100px;
     padding: 20px;
     padding-left: 30px;
     position: relative;
     margin-left: 120px;
+    bottom: 200px;
+    right: 200px;
 
   }
   .outer{
     width: 160px;
     height: 160px;
     border-radius: 50%;
-    padding: 20px;
-    box-shadow: 6px 6px 10px -1px rgba(247, 22, 22, 0.603),
-                -6px -6px 10px -1px rgba(193, 32, 32, 0.7);
+    padding: 10px;
+    position: absolute;
+    top: 10%;
+    box-shadow: 6px 6px 10px -1px rgba(247, 243, 22, 0.603),
+    -6px -6px 10px -1px rgba(146, 225, 208, 0.7),
+                -6px -6px 10px -1px rgba(32, 193, 158, 0.7);
   }
   /*  */
   #percentage{
@@ -133,5 +138,5 @@ h6{
   }
   #message{
     margin-left: 80%;
-    
+
   }
